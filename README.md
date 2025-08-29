@@ -9,7 +9,7 @@ To use the MatPROV context in a PROV-JSONLD document, include the following in t
 ```json
 {
   "@context": [
-    "https://MatPROV-project.github.io/matprov-schema/context.jsonld"
+    "https://matprov-project.github.io/matprov-schema/context.jsonld"
   ],
   "@graph": [ /* … */ ]
 }
