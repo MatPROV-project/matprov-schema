@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MatPROV Releases</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; color: #333; }
+    header { background: #1e73be; color: #fff; padding: 1.5rem; text-align: center; }
+    h1 { font-size: 1.8rem; }
+    main { max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+    .release-list { list-style: none; display: grid; grid-gap: 1rem; }
+    .download-box {
+      display: block;
+      background: #fff;
+      border: 2px solid #1e73be;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1.25rem;
+      text-align: center;
+      text-decoration: none;
+      color: #1e73be;
+      font-size: 1.1rem;
+      font-weight: bold;
+      transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    }
+    .download-box time {
+      display: block;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #666;
+      transition: color 0.3s;
+    }
+    .download-box:hover {
+      background: #1e73be;
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .download-box:hover time {
+      color: #fff;
+    }
+    footer { text-align: center; font-size: 0.85rem; color: #666; margin-top: 3rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MatPROV JSON-LD Context Releases</h1>
+  </header>
+  <main>
+    <ul class="release-list">
+      <li>
+        <a href="context.jsonld" class="download-box">
+          Latest (v1.0)
+          <time datetime="2025-07-10">July 10, 2025</time>
+        </a>
+      </li>
+      <li>
+        <a href="releases/1.0/context.jsonld" class="download-box">
+          v1.0
+          <time datetime="2025-07-10">July 10, 2025</time>
+        </a>
+      </li>
+    </ul>
+    <footer>
+      Licensed under <a href="LICENSE">CC BY 4.0</a>
+    </footer>
+  </main>
+</body>
+</html>
